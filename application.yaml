@@ -1,0 +1,16 @@
+app:
+  debug: true
+  log_level: "debug"
+
+fare_rules:
+  base:
+    price: 400
+    distance: 1000
+  up_to:
+    price: 40
+    distance: 400
+    distance_threshold: 10000
+  over:
+    price: 40
+    distance: 350
+    distance_threshold: 10000
